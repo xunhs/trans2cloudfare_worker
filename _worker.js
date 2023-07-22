@@ -9,7 +9,7 @@ export default {
     }
     else{
       // default redirect to blog
-      url.hostname = 'https://snow.xunhs.workers.dev'
+      url.hostname = 'snow.xunhs.workers.dev'
       let new_request = new Request(url, request);
       return fetch(new_request);
     }
